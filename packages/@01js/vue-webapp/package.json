@@ -1,5 +1,5 @@
 {
-  "name": "@01js/vue-template-base",
+  "name": "@01js/vue-webapp",
   "version": "0.1.2",
   "private": true,
   "scripts": {
@@ -15,6 +15,8 @@
     "js-cookie": "^2.2.1",
     "normalize.css": "^8.0.1",
     "register-service-worker": "^1.6.2",
+    "sass-resources-loader": "^2.0.1",
+    "vant": "^2.4.2-beta.2",
     "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",
     "vue-property-decorator": "^8.3.0",
