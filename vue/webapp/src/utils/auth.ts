@@ -1,6 +1,6 @@
 import Cookies from 'js-cookie'
 
-const TokenKey = 'token'
+const TokenKey = (process && process.env && process.env.TOKEN_KEY) ? process.env.TOKEN_KEY : 'token'
 
 export function getToken () {
   return Cookies.get(TokenKey)
